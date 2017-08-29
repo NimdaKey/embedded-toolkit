@@ -6,7 +6,7 @@ Proceed as usual (assuming you sourced the [activate-script-helpers](https://git
 $ source env.src
 $ tar -xvzf libpcap-1.8.1.tar.gz
 $ cd libpcap-1.8.1
-$ ./configure --prefix=$ROOT --host=$TARGET_HOST CFLAGS="$CFLAGS"
+$ ./configure --prefix=$TOOLCHAIN_ROOT --host=$TOOLCHAIN_TARGET --with-pcap=linux
 $ make -j && make install
 ```
 
