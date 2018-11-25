@@ -23,12 +23,19 @@ Make sure you understand what this app does before using it. Note that it doesn'
 ### List of all busybox applications supported by this binary
 
 [[
+
 [
+
 acpid
+
 addgroup
+
 add-shell
+
 adduser
+
 adjtimex
+
 arp
 arping
 ash
